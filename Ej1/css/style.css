@@ -1,0 +1,46 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    background: linear-gradient(to bottom right, #001d3d, #003566);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#login-cnt{
+    background-color: gainsboro;
+    color: grey;
+    border-radius: 15px;
+
+}
+
+#login-header{
+    display: grid;    
+    background-color: white;
+    border-radius: 0px 15px 0 0;
+
+    grid-template-columns: 8fr 2fr ;
+    grid-template-rows: 1fr;
+}
+
+#login-txt{
+    grid-column: 1/2;
+    background-color: white;
+    text-align: start;
+    border-radius: 15px 0 0 0;
+
+}
+
+#login-img{
+    grid-column: 2/3;
+    background-color: white;
+
+}
+
+.material-symbols-rounded {
+    font-size: 64px;
+}
+
